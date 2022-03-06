@@ -1,14 +1,16 @@
 # Compy
+A multi language supported compile script.
 
 ## Download
-
 ```bash
-git clone https://github.com/mertssmnoglu/compy
+git clone https://github.com/mertssmnoglu/compy.git
 ```
-## What is Compy ?
-Compy is a multi language supported compile script.
 
-Supported languages are c and c#. You need to install build-essential for compile c, mono-complete for compile c# apps.
+## Supported Languages
+
+- [X] C
+- [x] C#
+- [ ] C++
 
 ## License
 
