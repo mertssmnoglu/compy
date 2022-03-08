@@ -19,9 +19,12 @@ selectCompiler(){
             compilerLang="cs"
             compilerBin="mono"
             compilerPackage="mono-complete"
+        else
+            echo "$file is not supported for compiling"
+            exit 1
         fi
     else
-        echo "$file is not an existing file."
+        echo "$file is not an existing file"
         exit 1
     fi
 }
@@ -34,7 +37,7 @@ compile(){
 }
 
 if [ ! $1 ]; then
-    echo "No arguments provided"
+    echo "No arguments provided!"
     exit 1
 else
     file=$1
