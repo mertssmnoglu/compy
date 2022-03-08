@@ -35,6 +35,7 @@ compile(){
 
 if [ ! $1 ]; then
     echo "No arguments provided"
+    exit 1
 else
     file=$1
 fi
